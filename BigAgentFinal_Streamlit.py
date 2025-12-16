@@ -5,7 +5,6 @@ import base64  # 🔹 for inline PDF render
 
 import streamlit as st
 import pandas as pd
-from pypdf import PdfReader
 
 from sentence_transformers import SentenceTransformer
 
