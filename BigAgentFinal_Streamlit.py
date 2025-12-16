@@ -19,7 +19,17 @@ from datetime import datetime
 # =========================
 # TEMP: API key here for local testing.
 # For real use, set via env or Streamlit secrets.
-os.environ["ANTHROPIC_API_KEY"] = "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"
+import os
+import streamlit as st
+
+# Prefer Streamlit Cloud Secrets
+if "ANTHROPIC_API_KEY" in st.secrets:
+    os.environ["ANTHROPIC_API_KEY"] = st.secrets["ANTHROPIC_API_KEY"]
+
+# Stop early if still missing
+if not os.environ.get("ANTHROPIC_API_KEY"):
+    st.error("ANTHROPIC_API_KEY is not set. Add it in Streamlit Secrets.")
+    st.stop()
 # =========================
 
 # =========================
