@@ -39,13 +39,21 @@ It combines **local embeddings**, **vector search**, and **Anthropic Claude** to
 ## Project Structure
 
 ├── BigAgentFinal_Streamlit.py # Main Streamlit app
+
 ├── requirements.txt # Python dependencies
+
 ├── README.md
+
 ├── .streamlit/
+
 │ └── config.toml # Salud green UI theme
+|
 └── Charlie Output/ # Local data (ignored in git)
+
 └── Salud_main_1/
+
 └── <run_date>/
+
 └── <payer_id>/
 └── *.pdf
 
