@@ -29,7 +29,7 @@ It combines **local embeddings**, **vector search**, and **Anthropic Claude** to
 - Diff against previous runs with strict guardrails
 - Focus on actionable policy updates (no hallucinations)
 
-### 🧾 Traceability & Auditing
+###  Traceability & Auditing
 - Download original source PDFs
 - Inline preview of cited PDF page text
 - End-to-end transparency from answer → source
