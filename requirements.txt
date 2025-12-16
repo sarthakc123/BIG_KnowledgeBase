@@ -1,0 +1,13 @@
+beautifulsoup4==4.12.3
+requests==2.32.3
+PyMuPDF==1.24.10
+playwright==1.48.0
+streamlit
+pandas
+pypdf
+torch
+sentence-transformers==5.1.2
+langchain
+langchain-community
+langchain-anthropic
+chromadb
