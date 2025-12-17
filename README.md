@@ -66,6 +66,11 @@ Add secret in Manage app → Settings → Secrets:
 ANTHROPIC_API_KEY = "sk-ant-..." <-- YOUR API KEY HERE
 Deploy 
 
+## Refreshing Information
+navigation.ipynb has two cells that are critical to change,
+cell 5 is where you input your anthropic API key
+cell 2 is where you have a list of websites to scrape (base page)
+Run all when these are edited
 
 ## Answer Modes
 
